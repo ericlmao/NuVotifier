@@ -1,6 +1,5 @@
 package com.vexsoftware.votifier.bungee;
 
-import com.google.common.collect.ImmutableList;
 import com.vexsoftware.votifier.VoteHandler;
 import com.vexsoftware.votifier.bungee.cmd.NVReloadCmd;
 import com.vexsoftware.votifier.bungee.cmd.TestVoteCmd;
@@ -27,7 +26,6 @@ import com.vexsoftware.votifier.support.forwarding.redis.RedisPoolConfiguration;
 import com.vexsoftware.votifier.util.IOUtil;
 import com.vexsoftware.votifier.util.KeyCreator;
 import com.vexsoftware.votifier.util.TokenUtil;
-import jdk.nashorn.internal.runtime.regexp.joni.Config;
 import net.md_5.bungee.api.ProxyServer;
 import net.md_5.bungee.api.config.ServerInfo;
 import net.md_5.bungee.api.plugin.Plugin;
